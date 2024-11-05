@@ -1,2 +1,4 @@
 /phpstan/composer.lock
 /phpstan/vendor/
+
+/vendor/

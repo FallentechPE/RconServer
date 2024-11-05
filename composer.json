@@ -1,0 +1,21 @@
+{
+    "name": "pmmp/rconserver",
+    "autoload": {
+        "psr-4": {
+            "pmmp\\RconServer\\": "src/"
+        }
+    },
+	"require": {
+		"phpstan/phpstan": "^1.10.0",
+		"pocketmine/pocketmine-mp": "^5.3.0",
+		"phpstan/phpstan-strict-rules": "^1.0",
+		"phpstan/extension-installer": "^1.0",
+		"ext-sockets": "*",
+		"ext-yaml": "*"
+	},
+	"config": {
+		"allow-plugins": {
+			"phpstan/extension-installer": true
+		}
+	}
+}
